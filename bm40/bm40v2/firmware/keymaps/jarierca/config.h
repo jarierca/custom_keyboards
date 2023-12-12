@@ -21,7 +21,7 @@
 #define TAPPING_TERM 175 //For fast typing
 #define QUICK_TAP_TERM 0 //No autorepeat in tap-hold keys
 #define HOLD_ON_OTHER_KEY_PRESS //For fast typing
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6 //Number of layers
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5 //Number of layers
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
 
