@@ -1,6 +1,6 @@
-# BM60HSRGB_ISO
+# BM60v2_ISO
 
-![Filter](img/bm60_iso/bm60_iso_1.png)
+![Filter](/img/bm60_iso/bm60_iso_1.png)
 
 A 60% ISO hotswap inswitch RGB keyboard.
 
@@ -12,6 +12,4 @@ To check which board revision you have, check the PCB. If it has BM60v2-ISO prin
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 
-![Filter](img/bm60_iso/bm60_iso_2.png)
-
-![Filter](img/bm60_iso/bm60_iso_3.png)
+![Filter](/img/bm60_iso/bm60_iso_2.png)
