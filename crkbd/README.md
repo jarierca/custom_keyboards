@@ -10,6 +10,8 @@ Hardware Availability: [PCB & Case Data](https://github.com/foostan/crkbd)
 
 ![Filter](/img/crkbd/crkbd_2.png)
 
+![Filter](/img/crkbd/crkbd_6.png)
+
 ![Filter](/img/crkbd/crkbd_3.png)
 
 ![Filter](/img/crkbd/crkbd_4.png)
