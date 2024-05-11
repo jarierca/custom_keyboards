@@ -65,9 +65,15 @@ qmk setup
 qmk list-keyboards
 
 qmk compile -kb keyboard_name -km keymap
-Example: qmk compile -kb keychron/v6/iso_encoder -km default
+Example:
+* qmk compile -kb keychron/v6/iso_encoder -km default
+* qmk compile -kb crkbd -km jarierca_mouse
+
 
 qmk flash -kb keyboard_name -km keymap
-Example: qmk flash -kb keychron/v6/iso_encoder -km default
+Example: 
+* qmk flash -kb keychron/v6/iso_encoder -km default
+* qmk flash -kb crkbd -km jarierca_mouse
+
 
 
