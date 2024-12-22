@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT,    ES_A,    ES_S,    ES_D,    ES_F,    ES_G,                        ES_H,   ES_J,  ES_K,      ES_L,   ES_NTIL, ES_ACUT,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        KC_LCTL,    ES_Z,    ES_X,    ES_C,    ES_V,    ES_B,                        ES_N,   ES_M,  ES_COMM,   ES_DOT, ES_MINS, TG(4),
+        KC_LCTL,    ES_Z,    ES_X,    ES_C,    ES_V,    ES_B,                        ES_N,   ES_M,  ES_COMM,   ES_DOT, ES_MINS, KC_RCTL,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                             KC_LGUI,   MO(1),  KC_SPC,     KC_ENT,   MO(2), KC_LALT
                                         //`--------------------------'  `--------------------------'
@@ -42,11 +42,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [LOWER] = LAYOUT_split_3x6_3(
     //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-        KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_PAUS,                       KC_INS,  KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_BSPC,
+        KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_APP,                       KC_INS,  KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, KC_F5,   KC_F6,   KC_F7,   KC_F8,  KC_PSCR,                       KC_DEL,  KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, ES_DIAE,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        KC_LCTL, KC_F9,   KC_F10,  KC_F11,  KC_F12, KC_APP,                     LCTL(KC_C), LCTL(KC_V), ES_SCLN, ES_COLN, ES_UNDS, _______,
+        KC_LCTL, KC_F9,   KC_F10,  KC_F11,  KC_F12, MO(MOUSE),                     LCTL(KC_C), LCTL(KC_V), ES_SCLN, ES_COLN, ES_UNDS, _______,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                             KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_LALT
                                         //`--------------------------'  `--------------------------'
@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [RAISE] = LAYOUT_split_3x6_3(
     //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-        KC_CAPS, ES_EXLM, ES_DQUO, ES_HASH, ES_CIRC, XXXXXXX,                      ES_ASTR,  ES_7,    ES_8,    ES_9, ES_MINS, KC_BSPC,
+        KC_CAPS, ES_EXLM, ES_DQUO, ES_HASH, ES_CIRC, KC_PAUS,                      ES_ASTR,  ES_7,    ES_8,    ES_9, ES_MINS, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, ES_LCBR, ES_RCBR, ES_LPRN, ES_RPRN, ES_QUES,                      ES_SLSH,  ES_4,    ES_5,    ES_6, ES_PLUS, ES_QUOT,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
